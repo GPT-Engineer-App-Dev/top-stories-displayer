@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Text, VStack, Input, Box, Link, Switch, useColorMode } from "@chakra-ui/react";
-import { MoonIcon, SunIcon } from "react-icons/fa";
+import { FaMoon as MoonIcon, FaSun as SunIcon } from "react-icons/fa";
 import axios from "axios";
 
 const Index = () => {
