@@ -33,7 +33,7 @@ const Index = () => {
   }, [searchTerm, stories]);
 
   return (
-    <Container centerContent maxW="container.md" py={8}>
+    <Container centerContent maxW="container.md" py={8} px={4}>
       <Box display="flex" justifyContent="space-between" width="100%" mb={4}>
         <Text fontSize="2xl">Hacker News Top Stories</Text>
         <Box display="flex" alignItems="center">
